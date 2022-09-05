@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{56E75915-6DCC-406A-81AC-292D77D0BF13}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>LoginRegistrationForm</RootNamespace>
+    <AssemblyName>LoginRegistrationForm</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>e_commerce_icon_icon_zxN_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>D:\Fcis\Level 2\First Term\IS\Project\Gui\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Car1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Car1.Designer.cs">
+      <DependentUpon>Car1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Car2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Car2.Designer.cs">
+      <DependentUpon>Car2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CarAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CarAdmin.Designer.cs">
+      <DependentUpon>CarAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Carmain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Carmain.Designer.cs">
+      <DependentUpon>Carmain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Getid\Class1.cs" />
+    <Compile Include="jewel1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="jewel1.Designer.cs">
+      <DependentUpon>jewel1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="jewel2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="jewel2.Designer.cs">
+      <DependentUpon>jewel2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="jewel3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="jewel3.Designer.cs">
+      <DependentUpon>jewel3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="jewel4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="jewel4.Designer.cs">
+      <DependentUpon>jewel4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="life1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="life1.Designer.cs">
+      <DependentUpon>life1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="life2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="life2.Designer.cs">
+      <DependentUpon>life2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="life3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="life3.Designer.cs">
+      <DependentUpon>life3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Connection\ServerConnection.cs" />
+    <Compile Include="JewelriesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JewelriesForm.Designer.cs">
+      <DependentUpon>JewelriesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="life4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="life4.Designer.cs">
+      <DependentUpon>life4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login Form.Designer.cs">
+      <DependentUpon>Login Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main Form.Designer.cs">
+      <DependentUpon>Main Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainFormuser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainFormuser.Designer.cs">
+      <DependentUpon>MainFormuser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RealEstatesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RealEstatesForm.Designer.cs">
+      <DependentUpon>RealEstatesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Realstate1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Realstate1.Designer.cs">
+      <DependentUpon>Realstate1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Realstate2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Realstate2.Designer.cs">
+      <DependentUpon>Realstate2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Registration Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registration Form.Designer.cs">
+      <DependentUpon>Registration Form.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Car1.resx">
+      <DependentUpon>Car1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Car2.resx">
+      <DependentUpon>Car2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CarAdmin.resx">
+      <DependentUpon>CarAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Carmain.resx">
+      <DependentUpon>Carmain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="jewel1.resx">
+      <DependentUpon>jewel1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="jewel2.resx">
+      <DependentUpon>jewel2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="jewel3.resx">
+      <DependentUpon>jewel3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="jewel4.resx">
+      <DependentUpon>jewel4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="life1.resx">
+      <DependentUpon>life1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JewelriesForm.resx">
+      <DependentUpon>JewelriesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="life2.resx">
+      <DependentUpon>life2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="life3.resx">
+      <DependentUpon>life3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="life4.resx">
+      <DependentUpon>life4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login Form.resx">
+      <DependentUpon>Login Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main Form.resx">
+      <DependentUpon>Main Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainFormuser.resx">
+      <DependentUpon>MainFormuser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RealEstatesForm.resx">
+      <DependentUpon>RealEstatesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Realstate1.resx">
+      <DependentUpon>Realstate1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Realstate2.resx">
+      <DependentUpon>Realstate2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registration Form.resx">
+      <DependentUpon>Registration Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cyber-security.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cyber002-960x540.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cq5dam.web.816.480.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2037507.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\415410.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4154101.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2250144.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1307265.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cairos-Best-Diamond-Jewellery-Stores-696x365.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8.J351853E-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diamonds.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\44368915-luxurious-blue-diamond-shining-on-a-black-background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\color8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\color81.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\life-insurance--1000x500.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\how-to-turn-your-life-around.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\68153eba847c7b6bb6e40d858a8393885256a7d0f1530991137dcf8cbe74ee16.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\More-Ways-to-Simplify-Your-Life.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\opportunity-zones-the-commercial-real-estate-topic-du-jour-teaser.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\106141453-1569002923097evporsche_taycan_turbo_2019_porsche_ag.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Volkswagen_ID.3__Medium_10135.0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\patrol-registration-step-1-soar-2017-inside-online-form-icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\53c92803ebd4c6fe0f908c6878c1e1da.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sci2019-06-231333122.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shutterstock_544810975.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WordPress-Registration-plugin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\web icons17.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Design-Registration-india.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\article-f8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1_PUXVxY_3Pf_1TSxNR9sVnQ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HomePage_Header.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="e_commerce_icon_icon_zxN_icon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
